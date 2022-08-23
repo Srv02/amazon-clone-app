@@ -4,7 +4,7 @@ import { useStateValue, StateContext } from "./StateProvider";
 
 function Product({ id, title, image, price, rating }) {
   const [state, dispatch] = useContext(StateContext);
-  // console.log(state);
+
   const addToBasket = () => {
     dispatch({
       type: "ADD_TO_BASKET",
