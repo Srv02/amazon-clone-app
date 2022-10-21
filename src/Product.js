@@ -1,11 +1,12 @@
-import React, { useContext } from "react";
+import React from "react";
 import "./product.css";
-import { useStateValue, StateContext } from "./StateProvider";
+import { useStateValue } from "./StateProvider";
 
 function Product({ id, title, image, price, rating }) {
-  const [state, dispatch] = useContext(StateContext);
+  const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket = () => {
+    console.log("This is our basket >>> ", basket);
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
@@ -29,7 +30,7 @@ function Product({ id, title, image, price, rating }) {
           {Array(rating)
             .fill()
             .map((_, i) => (
-              <p>☆</p>
+              <p>🌟</p>
             ))}
         </div>
       </div>

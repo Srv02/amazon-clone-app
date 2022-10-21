@@ -8,49 +8,58 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Audio/PD22-CEPC/deslShov/q/Audio_Tallhero_3000x1200._CB631563403_.jpg"
+          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
           alt=""
-        ></img>
+        />
+
         <div className="home__row">
           <Product
-            title="The C++"
-            price={29.99}
-            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWt6F39OQ8m5avjHZWSc2K27xVKsnhUdrF6YX8UhUO&s"
+            id="12321341"
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+            price={11.96}
             rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           />
           <Product
-            title="JAVA Programming"
-            price={16.99}
-            image="https://m.media-amazon.com/images/I/514axA2lwpL.jpg"
+            id="49538094"
+            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+            price={239.0}
             rating={4}
-          />
-        </div>
-        <div className="home__row">
-          <Product
-            title=" i Phone 12"
-            price={99.9}
-            image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=90&.v=1617135051000"
-            rating={4}
-          />
-          <Product
-            title="JBL GO"
-            price={20.0}
-            image="https://cdn1.smartprix.com/rx-iytEKA7ID-w1200-h1200/jbl-go-plus-portable.webp"
-            rating={4}
-          />
-          <Product
-            title="HP Laptop"
-            price={99.0}
-            image="https://5.imimg.com/data5/NW/KV/MY-32712236/hp-laptop-500x500.jpg"
-            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
         </div>
+
         <div className="home__row">
           <Product
-            title="Whirlpool washing machine"
-            price={50.0}
-            image="https://4.imimg.com/data4/MD/TD/MY-13223178/whirlpool-washing-machine-500x500.jpg"
+            id="4903850"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            price={199.99}
+            rating={3}
+            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+          />
+          <Product
+            id="23445930"
+            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            price={98.99}
+            rating={5}
+            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+          />
+          <Product
+            id="3254354345"
+            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            price={598.99}
             rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id="90829332"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            price={1094.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
           />
         </div>
       </div>
